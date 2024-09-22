@@ -1,0 +1,17 @@
+﻿<Window x:Class="zamiana_na_binarne.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zamiana_na_binarne"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="liczba" HorizontalAlignment="Left" Margin="343,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Podaj liczbe ktora chcesz zamienic" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Impact"/>
+        <Label x:Name="wypis" Content="" HorizontalAlignment="Left" Margin="298,109,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button Content="Zamiana na binarne" HorizontalAlignment="Left" Margin="291,84,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Zamiana na liczbe 16" HorizontalAlignment="Left" Margin="400,84,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Label x:Name="wypis16" Content="" HorizontalAlignment="Left" Margin="413,109,0,0" VerticalAlignment="Top" Width="89"/>
+    </Grid>
+</Window>
